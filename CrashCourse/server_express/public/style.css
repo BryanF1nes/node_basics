@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
     body{
       max-width: 1200px;
       margin: 20px auto;
       padding: 0 20px;
-      font-family: 'Noto Serif', serif;
+      font-family: 'Roboto', sans-serif;
       max-width: 1200px;
     }
     p, h1, h2, h3, a, ul{
@@ -72,11 +72,16 @@
     }
 
     .delete {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       position: absolute;
       top: 0;
       right: 0;
       border-radius: 50%;
       padding: 8px;
+      height: 32px;
+      width: 32px;
     }
 
     .delete:hover {
